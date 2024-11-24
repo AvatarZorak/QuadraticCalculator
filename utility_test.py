@@ -14,7 +14,7 @@ class MyTestCase(unittest.TestCase):
 
     def test_find_solutions_value_error(self):
         with self.assertRaises(ValueError):
-            find_solutions(0, 4, 4)
+            find_solutions(1, 4, 4)
 
 
 if __name__ == '__main__':

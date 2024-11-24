@@ -6,7 +6,7 @@ def input_number(message):
     number = input(colored(f"{message}", "yellow"))
 
     if not number.isnumeric():
-        raise TypeError("Invalid coefficient type! Must be a number!")ol
+        raise TypeError("Invalid coefficient type! Must be a number!")
 
     return float(number)
 
